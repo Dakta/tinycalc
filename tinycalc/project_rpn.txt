@@ -1,0 +1,28 @@
+
+In either "C" or Java, write a program
+that implements a reverse polish calculator
+involving the following functions :
+
+Due: Wed 11/23
+
+add
+sub 
+mul
+div
+idiv
+mod
+sqrt
+sin
+cos
+
+pstack - print stack left to right
+
+dup
+exch
+pop
+index
+roll
+copy
+
+Your program may either read the rpn file
+directly or via input redirection.

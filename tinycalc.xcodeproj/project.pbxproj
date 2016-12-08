@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DE3A1A01DE4111300E0305F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3A19F1DE4111300E0305F /* main.c */; };
+		1DA9661F1DF1F61F00E18844 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9661D1DF1F61F00E18844 /* main.c */; };
+		1DA966221DF1F6FC00E18844 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DA966201DF1F6FC00E18844 /* stack.c */; };
+		1DA966251DF1FAEF00E18844 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DA966231DF1FAEF00E18844 /* types.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D22AD341DEF4A820060388A /* double_stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = double_stack.c; sourceTree = "<group>"; };
+		1D22AD351DEF4A820060388A /* double_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = double_stack.h; sourceTree = "<group>"; };
+		1D426F411DF889AB0048C53C /* project_test_standev */ = {isa = PBXFileReference; lastKnownFileType = text; path = project_test_standev; sourceTree = "<group>"; };
+		1D426F421DF88A230048C53C /* project_test_standev02 */ = {isa = PBXFileReference; lastKnownFileType = text; path = project_test_standev02; sourceTree = "<group>"; };
+		1DA9661D1DF1F61F00E18844 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = main.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1DA966201DF1F6FC00E18844 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; tabWidth = 4; };
+		1DA966211DF1F6FC00E18844 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; tabWidth = 4; };
+		1DA966231DF1FAEF00E18844 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = types.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1DA966241DF1FAEF00E18844 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = types.h; sourceTree = "<group>"; tabWidth = 4; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1DA966261DF3D56E00E18844 /* trampoline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trampoline.c; sourceTree = "<group>"; };
 		1DE3A19C1DE4111300E0305F /* tinycalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinycalc; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE3A19F1DE4111300E0305F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1DE3A19F1DE4111300E0305F /* notypes_main.c */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = notypes_main.c; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		1DE3A1A61DE4127200E0305F /* int_stack.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = int_stack.c; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		1DE3A1A71DE4127200E0305F /* int_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int_stack.h; sourceTree = "<group>"; };
+		1DE3A1A91DE412FF00E0305F /* project_rpn.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = project_rpn.txt; sourceTree = "<group>"; };
+		1DE3A1AA1DE412FF00E0305F /* project_test_quadratic */ = {isa = PBXFileReference; lastKnownFileType = text; path = project_test_quadratic; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,21 @@
 		1DE3A19E1DE4111300E0305F /* tinycalc */ = {
 			isa = PBXGroup;
 			children = (
-				1DE3A19F1DE4111300E0305F /* main.c */,
+				1D426F421DF88A230048C53C /* project_test_standev02 */,
+				1D426F411DF889AB0048C53C /* project_test_standev */,
+				1D22AD341DEF4A820060388A /* double_stack.c */,
+				1D22AD351DEF4A820060388A /* double_stack.h */,
+				1DE3A1A61DE4127200E0305F /* int_stack.c */,
+				1DE3A1A71DE4127200E0305F /* int_stack.h */,
+				1DA9661D1DF1F61F00E18844 /* main.c */,
+				1DE3A19F1DE4111300E0305F /* notypes_main.c */,
+				1DE3A1A91DE412FF00E0305F /* project_rpn.txt */,
+				1DE3A1AA1DE412FF00E0305F /* project_test_quadratic */,
+				1DA966201DF1F6FC00E18844 /* stack.c */,
+				1DA966211DF1F6FC00E18844 /* stack.h */,
+				1DA966261DF3D56E00E18844 /* trampoline.c */,
+				1DA966231DF1FAEF00E18844 /* types.c */,
+				1DA966241DF1FAEF00E18844 /* types.h */,
 			);
 			path = tinycalc;
 			sourceTree = "<group>";
@@ -119,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE3A1A01DE4111300E0305F /* main.c in Sources */,
+				1DA966221DF1F6FC00E18844 /* stack.c in Sources */,
+				1DA966251DF1FAEF00E18844 /* types.c in Sources */,
+				1DA9661F1DF1F61F00E18844 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +278,7 @@
 				1DE3A1A51DE4111300E0305F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
